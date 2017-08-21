@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Vue Project</title>
+  <script type="text/javascript" src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+</head>
+<body>
+  <div id="demo">
+    Splittter: <select v-model="splitter">
+      <option>Laptops</option>
+      <option>Desktops</option>
+      <option>Tablets</option>
+    </select>
+    <br>
+    Articel#: <input type="text" v-model="article">
+    <br>
+    Mktname:  <input type="text" v-model="mktname">
+    <br>
+    URL:      <input type="text" v-model="url">
+    <br>
+    <button v-on:click="add()">Add</button>
+    <br>
+    <table>
+    <tr>
+      <th>Splittter</th>
+      <th>Articel#</th>
+      <th>Mktname</th>
+      <th>URL</th>
+    </tr>
+    <tr v-for="item in myData">
+     <td>{{item.splitter}}<td>
+      <td>{{item.article}}<td>
+      <td>{{item.mktname}}<td>
+      <td>{{item.url}}<td>
+      
+    </tr>
+    </table>
+  </div>  
+</body>
+</html>

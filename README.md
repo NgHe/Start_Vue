@@ -1,4 +1,4 @@
-# Start_Vue
+# S_Vue
 ### start my first project based on Vue.js FrameWork. 
 * **v-for**<br/>
  [（item,index） in items](http://jsbin.com/wojicux/edit?html,js,output)<br/>
@@ -10,6 +10,6 @@
 * **v-for&v-if, Filter**
 * **methods / call Json file,**
 * **v-text/v-html**
-* **components / parents-child**
+* **components / parents-child/ $on/$emit**
 * **vue-resource (axios)**
 * **vue-router**

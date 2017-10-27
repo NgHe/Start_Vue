@@ -9,3 +9,7 @@
  [small_example3(2017/09/25)](http://jsbin.com/sakulis/edit?html,js,output)<br/>
 * **v-for&v-if, Filter**
 * **methods / call Json file,**
+* **v-text/v-html**
+* **components / parents-child**
+* **vue-resource (axios)**
+* **vue-router**
